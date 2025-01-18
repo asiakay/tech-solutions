@@ -1,0 +1,20 @@
+# Project configuration
+name = "tech-solutions"
+type = "javascript"
+
+# Account details
+account_id = "bd46ae11d484452139c38cbfdd7b2a46"
+
+# Site deployment settings
+site = { bucket = "./", entry-point = "workers-site" }
+
+# Environment settings
+[env]
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Default build command
+[build]
+command = "npm run build"
+directory = "dist"  # Adjust if your output folder is different
